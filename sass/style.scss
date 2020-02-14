@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+$orange: #ed6d47;
+$yellow: #ffc84e;
+$green: #2ED8A3;
+$cyan: #70cbff;
+$blue: #2970ff;
+$red: #ed6d47;
+
+$primary: $blue;
+$dark: #091440;
+$text: $dark;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/elements/_all.sass";
+@import "../node_modules/bulma/sass/components/_all.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";

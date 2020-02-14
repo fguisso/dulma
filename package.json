@@ -1,0 +1,16 @@
+{
+  "name": "dulma",
+  "version": "1.0.0",
+  "description": "bulma modified for decred theme",
+  "main": "index.js",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/style.scss css/style.css",
+    "start": "npm run css-build -- --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.1"
+  }
+}
